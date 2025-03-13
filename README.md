@@ -1,3 +1,42 @@
+# SocialGen - AI-Powered Social Media Content Generator
+
+SocialGen is a modern SaaS application that helps users create engaging social media content across multiple platforms with AI assistance.
+
+## Features
+
+- **AI-Powered Content Generation**: Create platform-specific social media posts with customizable tone and character limits
+- **Multi-Platform Support**: Optimized for Twitter/X, Facebook, LinkedIn, and Instagram
+- **User Authentication**: Secure login and registration with Supabase Auth
+- **Subscription Management**: Tiered pricing plans with Stripe integration
+- **Responsive Design**: Modern UI that works across all devices
+
+## Tech Stack
+
+- **Frontend**: Next.js 14 with App Router, React, Tailwind CSS, shadcn/ui
+- **Backend**: Supabase (PostgreSQL, Auth, Storage)
+- **Serverless Functions**: Supabase Edge Functions (Deno)
+- **Payments**: Stripe subscription management
+- **Deployment**: Vercel (frontend), Supabase (backend)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm/yarn
+- Supabase account
+- Stripe account
+
+### Environment Variables
+
+Create a `.env.local` file with the following variables:
+
+### Installation
+
+1. Clone the repository
+
+2. Install dependencies
+
+3. Run the development server
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
